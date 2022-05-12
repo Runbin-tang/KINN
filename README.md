@@ -6,8 +6,10 @@ The program is written in python (in Linux)
 # Usage  
     
     python kinn_main.py protein --seqs hrv.fasta --medatacsv hrv.csv --k 2 --savefolder $savefolder
-   ## help  
+    
+   ## Help  
      python kinn_main.py -h  
+     
   ## Parameters   
   
      dna or protein  (must input)   
@@ -22,7 +24,7 @@ The program is written in python (in Linux)
     
    # Output 
    
-      output is the mega style, you can directly pass it into mega X to obtain the phylogenetic tree.
+      Output is the mega style, you can directly pass it into mega X to obtain the phylogenetic tree.
       
    # Example  
       
