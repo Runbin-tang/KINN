@@ -100,11 +100,8 @@ def kinn(opt, seq, name):
     #return inn_f,distB
 
 def splitn(s):
-    if s.split('/')[-1]=='':
-        return s.split('/')[-2].split('.fasta')[0]+'.meg'
-    else:
-        return s.split('/')[-1].split('.fasta')[0]+'.meg'
-       
+    return os.path.basename(s).replace('.fasta','.meg')
+
 def optil(s):
     ave=0
     for i in range(len(s)):
