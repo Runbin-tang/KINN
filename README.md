@@ -30,5 +30,6 @@ The program is written in python (in Linux)
       
        python kinn_main.py --seqtype protein --k 2 --seqs example.fasta --medatacsv example.csv --savefolder dis
       
-      
+   # Citation
+    Runbin Tang, Zuguo Yu, Jinyan Li, Inner distance distributions of k-mer pairs in biological sequences for alignment-free construction of accurate phylogeny trees
    
