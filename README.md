@@ -4,9 +4,10 @@ KINN is a Novel Alignment-Free Method Based on the Inner Distance Distribution o
 The program is written in python (in Linux)
 
 # Usage  
-
+    
     python kinn_main.py protein --seqs hrv.fasta --medatacsv hrv.csv --k 2 --savefolder $savefolder
-  
+   ## help  
+     python kinn_main.py -h  
   ## Parameters   
   
      dna or protein  (must input)   
