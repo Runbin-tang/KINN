@@ -5,7 +5,7 @@ The program is written in python (in Linux)
 
 # Usage  
     
-    python kinn_main.py protein --seqs hrv.fasta --medatacsv hrv.csv --k 2 --savefolder $savefolder
+    python kinn_main.py protein --seqs $inputsequences --medatacsv $sequences_labelname --k $k --savefolder $savefolder
     
    ## Help  
      python kinn_main.py -h  
