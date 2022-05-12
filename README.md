@@ -25,6 +25,7 @@ The program is written in python (in Linux)
       
    # Example  
       
-       python kinn_main.py --seqtype protein --k 2 --seqs .\hrv.fasta --medatacsv .\hrv.csv --savefolder dis
+       python kinn_main.py --seqtype protein --k 2 --seqs hrv.fasta --medatacsv hrv.csv --savefolder dis
+      
       
    
